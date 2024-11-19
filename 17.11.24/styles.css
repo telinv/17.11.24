@@ -110,6 +110,9 @@ body:not(:last-child) {
     text-align: start;
   }
   .main__imgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 90vw;
   }
   .main__imgs a{
@@ -131,7 +134,7 @@ footer{
 }
 .footer__links{
   display: flex;
-  gap: 8rem;
+  gap: 5rem;
 }
 .tel{
  text-decoration: none;
